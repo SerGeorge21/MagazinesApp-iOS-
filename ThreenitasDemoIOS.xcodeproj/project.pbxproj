@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782B9C4026A98C29007E735B /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B9C3F26A98C29007E735B /* BookListViewController.swift */; };
+		788C818426A707B100072115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818326A707B100072115 /* AppDelegate.swift */; };
+		788C818626A707B100072115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818526A707B100072115 /* SceneDelegate.swift */; };
+		788C818826A707B100072115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818726A707B100072115 /* ViewController.swift */; };
+		788C818B26A707B100072115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C818926A707B100072115 /* Main.storyboard */; };
+		788C818D26A707B200072115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C818C26A707B200072115 /* Assets.xcassets */; };
+		788C819026A707B200072115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C818E26A707B200072115 /* LaunchScreen.storyboard */; };
+		788C819B26A707B400072115 /* ThreenitasDemoIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C819A26A707B400072115 /* ThreenitasDemoIOSTests.swift */; };
+		788C81A626A707B400072115 /* ThreenitasDemoIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C81A526A707B400072115 /* ThreenitasDemoIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788C819726A707B400072115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788C817826A707B100072115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788C817F26A707B100072115;
+			remoteInfo = ThreenitasDemoIOS;
+		};
+		788C81A226A707B400072115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788C817826A707B100072115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788C817F26A707B100072115;
+			remoteInfo = ThreenitasDemoIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782B9C3F26A98C29007E735B /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		788C818026A707B100072115 /* ThreenitasDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreenitasDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C818326A707B100072115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		788C818526A707B100072115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		788C818726A707B100072115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		788C818A26A707B100072115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		788C818C26A707B200072115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		788C818F26A707B200072115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		788C819126A707B200072115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788C819626A707B400072115 /* ThreenitasDemoIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreenitasDemoIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C819A26A707B400072115 /* ThreenitasDemoIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreenitasDemoIOSTests.swift; sourceTree = "<group>"; };
+		788C819C26A707B400072115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788C81A126A707B400072115 /* ThreenitasDemoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreenitasDemoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		788C81A526A707B400072115 /* ThreenitasDemoIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreenitasDemoIOSUITests.swift; sourceTree = "<group>"; };
+		788C81A726A707B500072115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788C817D26A707B100072115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C819326A707B400072115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C819E26A707B400072115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788C817726A707B100072115 = {
+			isa = PBXGroup;
+			children = (
+				788C818226A707B100072115 /* ThreenitasDemoIOS */,
+				788C819926A707B400072115 /* ThreenitasDemoIOSTests */,
+				788C81A426A707B400072115 /* ThreenitasDemoIOSUITests */,
+				788C818126A707B100072115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788C818126A707B100072115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788C818026A707B100072115 /* ThreenitasDemoIOS.app */,
+				788C819626A707B400072115 /* ThreenitasDemoIOSTests.xctest */,
+				788C81A126A707B400072115 /* ThreenitasDemoIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788C818226A707B100072115 /* ThreenitasDemoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				788C818326A707B100072115 /* AppDelegate.swift */,
+				788C818526A707B100072115 /* SceneDelegate.swift */,
+				788C818726A707B100072115 /* ViewController.swift */,
+				788C818926A707B100072115 /* Main.storyboard */,
+				782B9C3F26A98C29007E735B /* BookListViewController.swift */,
+				788C818C26A707B200072115 /* Assets.xcassets */,
+				788C818E26A707B200072115 /* LaunchScreen.storyboard */,
+				788C819126A707B200072115 /* Info.plist */,
+			);
+			path = ThreenitasDemoIOS;
+			sourceTree = "<group>";
+		};
+		788C819926A707B400072115 /* ThreenitasDemoIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				788C819A26A707B400072115 /* ThreenitasDemoIOSTests.swift */,
+				788C819C26A707B400072115 /* Info.plist */,
+			);
+			path = ThreenitasDemoIOSTests;
+			sourceTree = "<group>";
+		};
+		788C81A426A707B400072115 /* ThreenitasDemoIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				788C81A526A707B400072115 /* ThreenitasDemoIOSUITests.swift */,
+				788C81A726A707B500072115 /* Info.plist */,
+			);
+			path = ThreenitasDemoIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788C817F26A707B100072115 /* ThreenitasDemoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C81AA26A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOS" */;
+			buildPhases = (
+				788C817C26A707B100072115 /* Sources */,
+				788C817D26A707B100072115 /* Frameworks */,
+				788C817E26A707B100072115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreenitasDemoIOS;
+			productName = ThreenitasDemoIOS;
+			productReference = 788C818026A707B100072115 /* ThreenitasDemoIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788C819526A707B400072115 /* ThreenitasDemoIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C81AD26A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOSTests" */;
+			buildPhases = (
+				788C819226A707B400072115 /* Sources */,
+				788C819326A707B400072115 /* Frameworks */,
+				788C819426A707B400072115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788C819826A707B400072115 /* PBXTargetDependency */,
+			);
+			name = ThreenitasDemoIOSTests;
+			productName = ThreenitasDemoIOSTests;
+			productReference = 788C819626A707B400072115 /* ThreenitasDemoIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		788C81A026A707B400072115 /* ThreenitasDemoIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788C81B026A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOSUITests" */;
+			buildPhases = (
+				788C819D26A707B400072115 /* Sources */,
+				788C819E26A707B400072115 /* Frameworks */,
+				788C819F26A707B400072115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788C81A326A707B400072115 /* PBXTargetDependency */,
+			);
+			name = ThreenitasDemoIOSUITests;
+			productName = ThreenitasDemoIOSUITests;
+			productReference = 788C81A126A707B400072115 /* ThreenitasDemoIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788C817826A707B100072115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					788C817F26A707B100072115 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					788C819526A707B400072115 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 788C817F26A707B100072115;
+					};
+					788C81A026A707B400072115 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 788C817F26A707B100072115;
+					};
+				};
+			};
+			buildConfigurationList = 788C817B26A707B100072115 /* Build configuration list for PBXProject "ThreenitasDemoIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 788C817726A707B100072115;
+			productRefGroup = 788C818126A707B100072115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788C817F26A707B100072115 /* ThreenitasDemoIOS */,
+				788C819526A707B400072115 /* ThreenitasDemoIOSTests */,
+				788C81A026A707B400072115 /* ThreenitasDemoIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788C817E26A707B100072115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C819026A707B200072115 /* LaunchScreen.storyboard in Resources */,
+				788C818D26A707B200072115 /* Assets.xcassets in Resources */,
+				788C818B26A707B100072115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C819426A707B400072115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C819F26A707B400072115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788C817C26A707B100072115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C818826A707B100072115 /* ViewController.swift in Sources */,
+				782B9C4026A98C29007E735B /* BookListViewController.swift in Sources */,
+				788C818426A707B100072115 /* AppDelegate.swift in Sources */,
+				788C818626A707B100072115 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C819226A707B400072115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C819B26A707B400072115 /* ThreenitasDemoIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788C819D26A707B400072115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788C81A626A707B400072115 /* ThreenitasDemoIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788C819826A707B400072115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788C817F26A707B100072115 /* ThreenitasDemoIOS */;
+			targetProxy = 788C819726A707B400072115 /* PBXContainerItemProxy */;
+		};
+		788C81A326A707B400072115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788C817F26A707B100072115 /* ThreenitasDemoIOS */;
+			targetProxy = 788C81A226A707B400072115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788C818926A707B100072115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788C818A26A707B100072115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		788C818E26A707B200072115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788C818F26A707B200072115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788C81A826A707B500072115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		788C81A926A707B500072115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788C81AB26A707B500072115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreenitasDemoIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.learnIOS.ThreenitasDemoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		788C81AC26A707B500072115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreenitasDemoIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.learnIOS.ThreenitasDemoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		788C81AE26A707B500072115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreenitasDemoIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.learnIOS.ThreenitasDemoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreenitasDemoIOS.app/ThreenitasDemoIOS";
+			};
+			name = Debug;
+		};
+		788C81AF26A707B500072115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreenitasDemoIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.learnIOS.ThreenitasDemoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreenitasDemoIOS.app/ThreenitasDemoIOS";
+			};
+			name = Release;
+		};
+		788C81B126A707B500072115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreenitasDemoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.learnIOS.ThreenitasDemoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreenitasDemoIOS;
+			};
+			name = Debug;
+		};
+		788C81B226A707B500072115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThreenitasDemoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.learnIOS.ThreenitasDemoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreenitasDemoIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788C817B26A707B100072115 /* Build configuration list for PBXProject "ThreenitasDemoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C81A826A707B500072115 /* Debug */,
+				788C81A926A707B500072115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C81AA26A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C81AB26A707B500072115 /* Debug */,
+				788C81AC26A707B500072115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C81AD26A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C81AE26A707B500072115 /* Debug */,
+				788C81AF26A707B500072115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788C81B026A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788C81B126A707B500072115 /* Debug */,
+				788C81B226A707B500072115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788C817826A707B100072115 /* Project object */;
+}
