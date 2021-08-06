@@ -6,27 +6,48 @@
 //
 
 import UIKit
+import KeychainAccess
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var logInButton: UIButton!
     
-    @IBAction func logInClicked(_ sender: UIButton) {
+    /*@IBAction func logInClicked(_ sender: UIButton) {
         segueToBooks();
+    }*/
+    
+    
+    @IBAction func logInClicked(_ sender: UIButton) {
+        segueToBooks()
     }
     
     func segueToBooks()-> Void{
         //logInButton.backgroundColor = UIColor.black
         
-        guard let booklist_vc = storyboard?.instantiateViewController(identifier: "booklist_vc") as? BookListViewController else{
+        guard let booklist_vc = storyboard?.instantiateViewController(identifier: "tabBar_vc") as? myTabBarController else{
             return //like saying: "can you try to instantiate this as this? If not then dont do anything"
         }
-        //booklist_vc.myText =
-        //let booklist_vc = BookListViewController(textToshow: "Hi there little friend")
-        //Navigation controller dimiourgei stoiva me controllers
-        //present(booklist_vc, animated: true, completion: nil)
-        navigationController?.pushViewController(booklist_vc, animated: true)
+        
+        NetworkingUtils().fetchAccessToken { [weak self](tokenResponse) in
+            guard let self = self else {return}
+            DispatchQueue.main.async {
+                let keychain : Keychain = Keychain(service: "threenitas.com")
+                keychain["access_token"] = tokenResponse.accessToken
+                //Navigation controller dimiourgei stoiva me controllers
+                //present(booklist_vc, animated: true, completion: nil)
+                //self.navigationController?.pushViewController(booklist_vc, animated: true)
+            }
+        }
+        
     }
+    
+    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        if let tabViewController = segue.destination as? myTabBarController{
+            tabViewController.modalPresentationStyle = .fullScreen
+        }
+    }*/
     
     
     @IBOutlet weak var usernameTextField: UITextField!

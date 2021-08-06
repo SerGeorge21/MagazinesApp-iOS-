@@ -6,28 +6,27 @@
 //
 
 import UIKit
+import KeychainAccess
 
 class BookListViewController: UIViewController {
 
     
-    @IBOutlet weak var receivedText: UILabel!
+    //@IBOutlet weak var receivedText: UILabel!
     var myText: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //receivedText.text = "Hi there friends"
-        receivedText.text = myText
+        
     }
     
-    init(textToshow: String) {
-        myText = "Some random text"
-        super .init(nibName: nil, bundle: nil)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(false)
+        let keychain = Keychain(service: "threenitas.com")
+        //receivedText.text = keychain["access_token"]
     }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
     /*
     // MARK: - Navigation

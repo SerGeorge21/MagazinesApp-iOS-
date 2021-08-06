@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004725352B2BA0326EC8E5C6 /* Pods_ThreenitasDemoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9E3E6D73B112C19FCFE836 /* Pods_ThreenitasDemoIOS.framework */; };
 		782B9C4026A98C29007E735B /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B9C3F26A98C29007E735B /* BookListViewController.swift */; };
+		7830947B26BAD61400EA8665 /* BookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830947A26BAD61400EA8665 /* BookCollectionViewController.swift */; };
+		7830948326BAD66000EA8665 /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830948226BAD66000EA8665 /* myTabBarController.swift */; };
+		7830948B26BAD68D00EA8665 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830948A26BAD68D00EA8665 /* SettingsViewController.swift */; };
 		788C818426A707B100072115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818326A707B100072115 /* AppDelegate.swift */; };
 		788C818626A707B100072115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818526A707B100072115 /* SceneDelegate.swift */; };
 		788C818826A707B100072115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818726A707B100072115 /* ViewController.swift */; };
@@ -16,6 +20,11 @@
 		788C819026A707B200072115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C818E26A707B200072115 /* LaunchScreen.storyboard */; };
 		788C819B26A707B400072115 /* ThreenitasDemoIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C819A26A707B400072115 /* ThreenitasDemoIOSTests.swift */; };
 		788C81A626A707B400072115 /* ThreenitasDemoIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C81A526A707B400072115 /* ThreenitasDemoIOSUITests.swift */; };
+		78F4F6FB26B7FFAA00BD49BA /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4F6FA26B7FFAA00BD49BA /* TokenResponse.swift */; };
+		78F4F70026B7FFE700BD49BA /* NetworkingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4F6FF26B7FFE700BD49BA /* NetworkingUtils.swift */; };
+		78F4F70526B842F600BD49BA /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4F70426B842F600BD49BA /* KeychainStore.swift */; };
+		852139E24DEB6219D633A7B4 /* Pods_ThreenitasDemoIOS_ThreenitasDemoIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89661D32B01A17BFFB0CACAC /* Pods_ThreenitasDemoIOS_ThreenitasDemoIOSUITests.framework */; };
+		E2D670EB79EA8D3D67880158 /* Pods_ThreenitasDemoIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC7BCEE7C1E95E4047F497E /* Pods_ThreenitasDemoIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322CEE78EB97327A4BB8FC74 /* Pods-ThreenitasDemoIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOS.debug.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOS/Pods-ThreenitasDemoIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5A935D525DAC5CF5986BDD4A /* Pods-ThreenitasDemoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOSTests/Pods-ThreenitasDemoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC7BCEE7C1E95E4047F497E /* Pods_ThreenitasDemoIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreenitasDemoIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		782B9C3F26A98C29007E735B /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		7830947A26BAD61400EA8665 /* BookCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewController.swift; sourceTree = "<group>"; };
+		7830948226BAD66000EA8665 /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
+		7830948A26BAD68D00EA8665 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		788C818026A707B100072115 /* ThreenitasDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreenitasDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C818326A707B100072115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788C818526A707B100072115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +66,15 @@
 		788C81A126A707B400072115 /* ThreenitasDemoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreenitasDemoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C81A526A707B400072115 /* ThreenitasDemoIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreenitasDemoIOSUITests.swift; sourceTree = "<group>"; };
 		788C81A726A707B500072115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F4F6FA26B7FFAA00BD49BA /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		78F4F6FF26B7FFE700BD49BA /* NetworkingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingUtils.swift; sourceTree = "<group>"; };
+		78F4F70426B842F600BD49BA /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		89661D32B01A17BFFB0CACAC /* Pods_ThreenitasDemoIOS_ThreenitasDemoIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreenitasDemoIOS_ThreenitasDemoIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		900199005248AB03F0923BB9 /* Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2D8EF52BAA5DEA060CAC812 /* Pods-ThreenitasDemoIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOS.release.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOS/Pods-ThreenitasDemoIOS.release.xcconfig"; sourceTree = "<group>"; };
+		D7419A46486497220C5D1CBB /* Pods-ThreenitasDemoIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOSTests.release.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOSTests/Pods-ThreenitasDemoIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED9E3E6D73B112C19FCFE836 /* Pods_ThreenitasDemoIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreenitasDemoIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA93B14C4945D0E41B19A3 /* Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004725352B2BA0326EC8E5C6 /* Pods_ThreenitasDemoIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D670EB79EA8D3D67880158 /* Pods_ThreenitasDemoIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +98,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852139E24DEB6219D633A7B4 /* Pods_ThreenitasDemoIOS_ThreenitasDemoIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EAD0D3F9D40590819E7A99E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				322CEE78EB97327A4BB8FC74 /* Pods-ThreenitasDemoIOS.debug.xcconfig */,
+				D2D8EF52BAA5DEA060CAC812 /* Pods-ThreenitasDemoIOS.release.xcconfig */,
+				FEBA93B14C4945D0E41B19A3 /* Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.debug.xcconfig */,
+				900199005248AB03F0923BB9 /* Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.release.xcconfig */,
+				5A935D525DAC5CF5986BDD4A /* Pods-ThreenitasDemoIOSTests.debug.xcconfig */,
+				D7419A46486497220C5D1CBB /* Pods-ThreenitasDemoIOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		788C817726A707B100072115 = {
 			isa = PBXGroup;
 			children = (
+				78F4F70426B842F600BD49BA /* KeychainStore.swift */,
+				78F4F6FF26B7FFE700BD49BA /* NetworkingUtils.swift */,
+				78F4F6FA26B7FFAA00BD49BA /* TokenResponse.swift */,
 				788C818226A707B100072115 /* ThreenitasDemoIOS */,
 				788C819926A707B400072115 /* ThreenitasDemoIOSTests */,
 				788C81A426A707B400072115 /* ThreenitasDemoIOSUITests */,
 				788C818126A707B100072115 /* Products */,
+				0EAD0D3F9D40590819E7A99E /* Pods */,
+				E8E01738E1506AA7090B6462 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +154,9 @@
 				788C818C26A707B200072115 /* Assets.xcassets */,
 				788C818E26A707B200072115 /* LaunchScreen.storyboard */,
 				788C819126A707B200072115 /* Info.plist */,
+				7830947A26BAD61400EA8665 /* BookCollectionViewController.swift */,
+				7830948226BAD66000EA8665 /* myTabBarController.swift */,
+				7830948A26BAD68D00EA8665 /* SettingsViewController.swift */,
 			);
 			path = ThreenitasDemoIOS;
 			sourceTree = "<group>";
@@ -131,6 +179,16 @@
 			path = ThreenitasDemoIOSUITests;
 			sourceTree = "<group>";
 		};
+		E8E01738E1506AA7090B6462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E3E6D73B112C19FCFE836 /* Pods_ThreenitasDemoIOS.framework */,
+				89661D32B01A17BFFB0CACAC /* Pods_ThreenitasDemoIOS_ThreenitasDemoIOSUITests.framework */,
+				6FC7BCEE7C1E95E4047F497E /* Pods_ThreenitasDemoIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 788C81AA26A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOS" */;
 			buildPhases = (
+				8466E459C999EB1A8F6BC9E7 /* [CP] Check Pods Manifest.lock */,
 				788C817C26A707B100072115 /* Sources */,
 				788C817D26A707B100072115 /* Frameworks */,
 				788C817E26A707B100072115 /* Resources */,
+				004011D56CD4D4D8D7359A18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 788C81AD26A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOSTests" */;
 			buildPhases = (
+				3B0BC82A99076AB0D2BAB758 /* [CP] Check Pods Manifest.lock */,
 				788C819226A707B400072115 /* Sources */,
 				788C819326A707B400072115 /* Frameworks */,
 				788C819426A707B400072115 /* Resources */,
@@ -173,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 788C81B026A707B500072115 /* Build configuration list for PBXNativeTarget "ThreenitasDemoIOSUITests" */;
 			buildPhases = (
+				929E3040AA6E9913F98428BA /* [CP] Check Pods Manifest.lock */,
 				788C819D26A707B400072115 /* Sources */,
 				788C819E26A707B400072115 /* Frameworks */,
 				788C819F26A707B400072115 /* Resources */,
+				72E4AFA3597522377ABA8308 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +319,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		004011D56CD4D4D8D7359A18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThreenitasDemoIOS/Pods-ThreenitasDemoIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThreenitasDemoIOS/Pods-ThreenitasDemoIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThreenitasDemoIOS/Pods-ThreenitasDemoIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B0BC82A99076AB0D2BAB758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThreenitasDemoIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E4AFA3597522377ABA8308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8466E459C999EB1A8F6BC9E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThreenitasDemoIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		929E3040AA6E9913F98428BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		788C817C26A707B100072115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				788C818826A707B100072115 /* ViewController.swift in Sources */,
+				78F4F70026B7FFE700BD49BA /* NetworkingUtils.swift in Sources */,
 				782B9C4026A98C29007E735B /* BookListViewController.swift in Sources */,
+				7830948B26BAD68D00EA8665 /* SettingsViewController.swift in Sources */,
 				788C818426A707B100072115 /* AppDelegate.swift in Sources */,
+				78F4F70526B842F600BD49BA /* KeychainStore.swift in Sources */,
 				788C818626A707B100072115 /* SceneDelegate.swift in Sources */,
+				78F4F6FB26B7FFAA00BD49BA /* TokenResponse.swift in Sources */,
+				7830948326BAD66000EA8665 /* myTabBarController.swift in Sources */,
+				7830947B26BAD61400EA8665 /* BookCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +609,7 @@
 		};
 		788C81AB26A707B500072115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322CEE78EB97327A4BB8FC74 /* Pods-ThreenitasDemoIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +628,7 @@
 		};
 		788C81AC26A707B500072115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D8EF52BAA5DEA060CAC812 /* Pods-ThreenitasDemoIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +647,7 @@
 		};
 		788C81AE26A707B500072115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A935D525DAC5CF5986BDD4A /* Pods-ThreenitasDemoIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +669,7 @@
 		};
 		788C81AF26A707B500072115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7419A46486497220C5D1CBB /* Pods-ThreenitasDemoIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +691,7 @@
 		};
 		788C81B126A707B500072115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBA93B14C4945D0E41B19A3 /* Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +711,7 @@
 		};
 		788C81B226A707B500072115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900199005248AB03F0923BB9 /* Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
