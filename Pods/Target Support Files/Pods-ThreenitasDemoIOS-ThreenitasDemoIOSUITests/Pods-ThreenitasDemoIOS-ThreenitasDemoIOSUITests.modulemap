@@ -1,0 +1,6 @@
+framework module Pods_ThreenitasDemoIOS_ThreenitasDemoIOSUITests {
+  umbrella header "Pods-ThreenitasDemoIOS-ThreenitasDemoIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
