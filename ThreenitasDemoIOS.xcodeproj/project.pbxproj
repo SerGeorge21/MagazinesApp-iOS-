@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		004725352B2BA0326EC8E5C6 /* Pods_ThreenitasDemoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9E3E6D73B112C19FCFE836 /* Pods_ThreenitasDemoIOS.framework */; };
-		782B9C4026A98C29007E735B /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B9C3F26A98C29007E735B /* BookListViewController.swift */; };
 		7830947B26BAD61400EA8665 /* BookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830947A26BAD61400EA8665 /* BookCollectionViewController.swift */; };
 		7830948326BAD66000EA8665 /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830948226BAD66000EA8665 /* myTabBarController.swift */; };
 		7830948B26BAD68D00EA8665 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7830948A26BAD68D00EA8665 /* SettingsViewController.swift */; };
+		784966B126F0E8FE00342377 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784966B026F0E8FE00342377 /* HeaderCollectionReusableView.swift */; };
+		78598BBA26E8BAF200E7E844 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78598BB926E8BAF200E7E844 /* PDFViewController.swift */; };
+		786AAF3826D9297500146DDF /* BookCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786AAF3726D9297400146DDF /* BookCellCollectionViewCell.swift */; };
+		786E862626D4F11F00A97FFB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786E862526D4F11F00A97FFB /* Book.swift */; };
+		786E862B26D50B5C00A97FFB /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786E862A26D50B5C00A97FFB /* Books.swift */; };
 		788C818426A707B100072115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818326A707B100072115 /* AppDelegate.swift */; };
 		788C818626A707B100072115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818526A707B100072115 /* SceneDelegate.swift */; };
 		788C818826A707B100072115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C818726A707B100072115 /* ViewController.swift */; };
@@ -20,6 +24,8 @@
 		788C819026A707B200072115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C818E26A707B200072115 /* LaunchScreen.storyboard */; };
 		788C819B26A707B400072115 /* ThreenitasDemoIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C819A26A707B400072115 /* ThreenitasDemoIOSTests.swift */; };
 		788C81A626A707B400072115 /* ThreenitasDemoIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C81A526A707B400072115 /* ThreenitasDemoIOSUITests.swift */; };
+		7892A39426EB61EB000D97AA /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892A39326EB61EB000D97AA /* TriangleView.swift */; };
+		78EE773C26E9FA4C003DC1B1 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE773B26E9FA4C003DC1B1 /* SettingsTableViewController.swift */; };
 		78F4F6FB26B7FFAA00BD49BA /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4F6FA26B7FFAA00BD49BA /* TokenResponse.swift */; };
 		78F4F70026B7FFE700BD49BA /* NetworkingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4F6FF26B7FFE700BD49BA /* NetworkingUtils.swift */; };
 		78F4F70526B842F600BD49BA /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4F70426B842F600BD49BA /* KeychainStore.swift */; };
@@ -48,10 +54,14 @@
 		322CEE78EB97327A4BB8FC74 /* Pods-ThreenitasDemoIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOS.debug.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOS/Pods-ThreenitasDemoIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5A935D525DAC5CF5986BDD4A /* Pods-ThreenitasDemoIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreenitasDemoIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ThreenitasDemoIOSTests/Pods-ThreenitasDemoIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FC7BCEE7C1E95E4047F497E /* Pods_ThreenitasDemoIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreenitasDemoIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		782B9C3F26A98C29007E735B /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
 		7830947A26BAD61400EA8665 /* BookCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewController.swift; sourceTree = "<group>"; };
 		7830948226BAD66000EA8665 /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
 		7830948A26BAD68D00EA8665 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		784966B026F0E8FE00342377 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		78598BB926E8BAF200E7E844 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		786AAF3726D9297400146DDF /* BookCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		786E862526D4F11F00A97FFB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		786E862A26D50B5C00A97FFB /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		788C818026A707B100072115 /* ThreenitasDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreenitasDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C818326A707B100072115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		788C818526A707B100072115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +76,8 @@
 		788C81A126A707B400072115 /* ThreenitasDemoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreenitasDemoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C81A526A707B400072115 /* ThreenitasDemoIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreenitasDemoIOSUITests.swift; sourceTree = "<group>"; };
 		788C81A726A707B500072115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7892A39326EB61EB000D97AA /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		78EE773B26E9FA4C003DC1B1 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		78F4F6FA26B7FFAA00BD49BA /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
 		78F4F6FF26B7FFE700BD49BA /* NetworkingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingUtils.swift; sourceTree = "<group>"; };
 		78F4F70426B842F600BD49BA /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
@@ -150,13 +162,19 @@
 				788C818526A707B100072115 /* SceneDelegate.swift */,
 				788C818726A707B100072115 /* ViewController.swift */,
 				788C818926A707B100072115 /* Main.storyboard */,
-				782B9C3F26A98C29007E735B /* BookListViewController.swift */,
 				788C818C26A707B200072115 /* Assets.xcassets */,
 				788C818E26A707B200072115 /* LaunchScreen.storyboard */,
 				788C819126A707B200072115 /* Info.plist */,
 				7830947A26BAD61400EA8665 /* BookCollectionViewController.swift */,
 				7830948226BAD66000EA8665 /* myTabBarController.swift */,
 				7830948A26BAD68D00EA8665 /* SettingsViewController.swift */,
+				786E862526D4F11F00A97FFB /* Book.swift */,
+				786E862A26D50B5C00A97FFB /* Books.swift */,
+				786AAF3726D9297400146DDF /* BookCellCollectionViewCell.swift */,
+				78598BB926E8BAF200E7E844 /* PDFViewController.swift */,
+				78EE773B26E9FA4C003DC1B1 /* SettingsTableViewController.swift */,
+				7892A39326EB61EB000D97AA /* TriangleView.swift */,
+				784966B026F0E8FE00342377 /* HeaderCollectionReusableView.swift */,
 			);
 			path = ThreenitasDemoIOS;
 			sourceTree = "<group>";
@@ -427,12 +445,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784966B126F0E8FE00342377 /* HeaderCollectionReusableView.swift in Sources */,
+				786E862B26D50B5C00A97FFB /* Books.swift in Sources */,
 				788C818826A707B100072115 /* ViewController.swift in Sources */,
 				78F4F70026B7FFE700BD49BA /* NetworkingUtils.swift in Sources */,
-				782B9C4026A98C29007E735B /* BookListViewController.swift in Sources */,
+				78598BBA26E8BAF200E7E844 /* PDFViewController.swift in Sources */,
+				786E862626D4F11F00A97FFB /* Book.swift in Sources */,
 				7830948B26BAD68D00EA8665 /* SettingsViewController.swift in Sources */,
+				78EE773C26E9FA4C003DC1B1 /* SettingsTableViewController.swift in Sources */,
+				786AAF3826D9297500146DDF /* BookCellCollectionViewCell.swift in Sources */,
 				788C818426A707B100072115 /* AppDelegate.swift in Sources */,
 				78F4F70526B842F600BD49BA /* KeychainStore.swift in Sources */,
+				7892A39426EB61EB000D97AA /* TriangleView.swift in Sources */,
 				788C818626A707B100072115 /* SceneDelegate.swift in Sources */,
 				78F4F6FB26B7FFAA00BD49BA /* TokenResponse.swift in Sources */,
 				7830948326BAD66000EA8665 /* myTabBarController.swift in Sources */,
