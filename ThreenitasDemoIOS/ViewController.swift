@@ -16,6 +16,24 @@ class ViewController: UIViewController {
         segueToBooks();
     }*/
     
+    @IBOutlet weak var languageSelectorView: UIView!
+    @IBOutlet weak var languagesView: UIView!
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    
+    @IBOutlet weak var dropdownButton: UIButton!
+    @IBAction func showAvailableLanguages(_ sender: Any) {
+        if languagesView.isHidden {
+            languagesView.isHidden = false
+            languagesView.isUserInteractionEnabled = true
+            //dropdownButton.setBackgroundImage(UIImage(named: "chevron.compact.up"), for: UIControl.State.normal)
+        }else{
+            languagesView.isHidden = true
+            languagesView.isUserInteractionEnabled = false
+            //dropdownButton.setBackgroundImage(UIImage(named: "chevron.compact.down"), for: UIControl.State.normal)
+        }
+    }
     
     @IBAction func logInClicked(_ sender: UIButton) {
         segueToBooks()
@@ -50,9 +68,6 @@ class ViewController: UIViewController {
     }*/
     
     
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -65,6 +80,13 @@ class ViewController: UIViewController {
                 
         usernameTextField.attributedPlaceholder = whiteUserPlaceholderText
         passwordTextField.attributedPlaceholder = whitePassPlaceholderText
+        
+        languageSelectorView.layer.cornerRadius = 22
+        //languageSelectorView.frame.size.height = 42
+        languagesView.layer.cornerRadius = 22
+        languagesView.isHidden = true
+        
+        self.navigationItem.title = "Log In"
     }
 
 

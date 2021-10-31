@@ -34,7 +34,12 @@ class BookCollectionViewController: UIViewController {
         booksCollectionView.dataSource = self
         booksCollectionView.delegate = self //is this needed??
         
-        //network call to fetch books
+        //fetch books
+        fetchBookData()
+        
+    }
+    
+    func fetchBookData(){
         NetworkingUtils().fetchBookData(){ [weak self] books in
             guard let self = self else {return}
             DispatchQueue.main.async{
@@ -66,7 +71,6 @@ class BookCollectionViewController: UIViewController {
                 
             }
         }
-        
     }
         
     override func viewDidAppear(_ animated: Bool) {

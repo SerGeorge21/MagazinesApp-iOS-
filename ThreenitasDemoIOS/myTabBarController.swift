@@ -15,10 +15,10 @@ class myTabBarController: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
         
         self.delegate = self
+        self.tabBar.shadowImage = UIImage()
         
-        //title = "Magazines"
-
-        // Do any additional setup after loading the view.
+        self.navigationController?.navigationBar.backgroundColor = UIColor(red: 16, green: 20, blue: 23, alpha: 1)
+        
     }
     
     
@@ -40,4 +40,20 @@ class myTabBarController: UITabBarController, UITabBarControllerDelegate {
     }
 
 
+    override func viewWillLayoutSubviews() {
+        var tabFrame : CGRect = self.tabBar.frame
+        tabFrame.size.height = tabFrame.size.height + 20.0
+        tabFrame.origin.y = self.view.frame.size.height - 50
+        self.tabBar.frame = tabFrame
+    }
+    
+}
+
+class CustomTabBar : UITabBar {
+    override open func sizeThatFits(_ size: CGSize) -> CGSize {
+        super.sizeThatFits(size)
+        var sizeThatFits = super.sizeThatFits(size)
+        sizeThatFits.height = 100
+        return sizeThatFits
+    }
 }

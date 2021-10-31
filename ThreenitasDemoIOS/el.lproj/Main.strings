@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "3Ls-it-gdW"; */
+"3Ls-it-gdW.text" = "Username";
+
+/* Class = "UILabel"; text = "Delete all books"; ObjectID = "3wX-LU-YnS"; */
+"3wX-LU-YnS.text" = "Delete all books";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "A7i-lr-szl"; */
+"A7i-lr-szl.text" = "Notifications";
+
+/* Class = "UILabel"; text = "Log out"; ObjectID = "BO6-zj-nBl"; */
+"BO6-zj-nBl.text" = "Log out";
+
+/* Class = "UIViewController"; title = "Log In"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Log In";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "MIf-NU-RhU"; */
+"MIf-NU-RhU.text" = "English";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Rof-BK-3qY"; */
+"Rof-BK-3qY.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "UVr-TV-uKb"; */
+"UVr-TV-uKb.placeholder" = "Username";
+
+/* Class = "UINavigationItem"; title = "Περιοδικά"; ObjectID = "Xrx-Wi-bw7"; */
+"Xrx-Wi-bw7.title" = "Περιοδικά";
+
+/* Class = "UITableViewController"; title = "Settings Table View"; ObjectID = "b2B-dW-cLR"; */
+"b2B-dW-cLR.title" = "Settings Table View";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "mfl-zp-Ac7"; */
+"mfl-zp-Ac7.text" = "English";
+
+/* Class = "UILabel"; text = "Greek"; ObjectID = "nGU-OV-Pi6"; */
+"nGU-OV-Pi6.text" = "Greek";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "pat-Rt-Tj9"; */
+"pat-Rt-Tj9.text" = "Language";
+
+/* Class = "UILabel"; text = "Προβολή"; ObjectID = "qb0-fN-6ob"; */
+"qb0-fN-6ob.text" = "Προβολή";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "uag-1Z-11O"; */
+"uag-1Z-11O.text" = "Feedback";
+
+/* Class = "UILabel"; text = "Book Title"; ObjectID = "vj3-P5-cA9"; */
+"vj3-P5-cA9.text" = "Book Title";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "vmM-w6-5Ik"; */
+"vmM-w6-5Ik.text" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "yli-Vg-T3Q"; */
+"yli-Vg-T3Q.normalTitle" = "Log In";
